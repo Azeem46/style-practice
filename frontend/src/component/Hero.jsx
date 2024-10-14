@@ -5,6 +5,7 @@ import OurSoftware from "./OurSoftware";
 import Services from "./Services";
 import Testimonal from "./Testimonal";
 import Menu from "./Menu";
+import img0 from "../assets/ip1.jpg";
 // Import Link for navigation
 
 const Hero = () => {
@@ -22,8 +23,8 @@ const Hero = () => {
 
   return (
     <div className="min-h-screen w-full flex flex-col">
-      <div className="flex-grow bg-white p-16">
-        <div className="mb-32">
+      <div className="flex flex-col md:flex-row items-center md:items-start justify-between bg-white p-16 ">
+        <div className="flex:grow mb-32 md:mb-0 md:mr-16">
           <h1 className="text-4xl font-bold text-[#679af5] mb-2">BUILD BEST</h1>
           <h2 className="text-6xl font-bold text-[#323232] mb-4">SOFTWARE</h2>
           <p className="text-[#171616] mb-8 max-w-md">
@@ -44,7 +45,8 @@ const Hero = () => {
               GET A QUOTE
             </button>
           </div>
-        </div>
+        </div>{" "}
+        <div className="w-full md:w-auto md:max-w-md h-full md:h-[300px]"></div>
       </div>
 
       {/* Menu positioned at the bottom of the main content area */}

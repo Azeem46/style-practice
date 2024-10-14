@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="md:w-1/3 mb-8 md:mb-0">
           <div className="flex items-center mb-4">
             <span className="bg-blue-500 text-white font-bold text-3xl p-2 rounded-full">
-              Q
+              CodexJob Infotech
             </span>
             <h3 className="text-xl font-bold ml-3">SOFTWARE</h3>
           </div>
@@ -53,15 +53,14 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container mx-auto mt-10 border-t border-gray-700 pt-6 flex justify-between items-center">
+      <div className="container mx-auto mt-10 border-t border-gray-700 pt-6">
         {/* Copyright */}
-        <p className="text-gray-400 text-sm">
-          Copyright 2019 All Right Reserved By Free HTML Templates Distributed
-          By ThemeWagon
+        <p className="flex text-gray-400 text-sm justify-center ">
+          Copyright 2024 All Right Reserved By CodexInfotech
         </p>
 
         {/* Social Icons */}
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 justify-end">
           <a href="#" className="text-white">
             <img src={icon10} alt="Facebook" className="w-6 h-6" />
           </a>

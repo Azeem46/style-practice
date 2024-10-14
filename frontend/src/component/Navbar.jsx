@@ -3,7 +3,7 @@ import icon from "../assets/react.svg";
 const Navbar = () => {
   return (
     <nav className="bg-white border-b border-gray-200">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div className=" max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
             {/* Logo */}

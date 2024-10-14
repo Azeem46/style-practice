@@ -9,7 +9,6 @@ const Menu = () => {
   const menuItems = [
     { name: "HOME", path: "/" },
     { name: "ABOUT", path: "/about" },
-    { name: "OUR SOFTWARE", path: "/our-software" },
     { name: "SERVICES", path: "/services" },
     { name: "CONTACT US", path: "/contact-us" },
     { name: "TESTIMONIAL", path: "/testimonal" },
